@@ -11,6 +11,22 @@ margin-bottom:10px;
   margin-left: auto;
   margin-right:auto;
 }
+.postdate{
+text-align: center;
+}
+.posttitle{
+font-family: 'russo One',sans-Serif;
+font-size:3em;
+text-align: center;
+}
+.postcontent{
+  font-family: 'Monserrate';
+  font-size:1.5em;
+}
+.btn-comment{
+position:absolute;
+right:0px;
+}
 .loader {
   filter:hue-rotate(0deg);
   color:linear-gradient(45deg,#0f8,#08f);
@@ -41,6 +57,8 @@ margin-bottom:10px;
   animation-duration:1600ms;
   animation-iteration-count:infinite;
 }
+
+
 @keyframes spinify {
   0% {
     transform: translate(0px,0px);
